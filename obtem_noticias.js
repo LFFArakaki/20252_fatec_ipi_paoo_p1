@@ -10,9 +10,6 @@ const {
  
 const URL = `${PROTOCOL}://${BASE_URL}?q=${Q}&apiKey=${APPID}`
  
- 
-axios.get(URL)
- 
 async function obtemNoticias() {
     try {
         const resposta = await axios.get(URL)
